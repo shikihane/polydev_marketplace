@@ -1,0 +1,20 @@
+{
+  "name": "polydev-marketplace",
+  "owner": {
+    "name": "Heyang"
+  },
+  "plugins": [
+    {
+      "name": "polydev",
+      "source": "https://github.com/shikihane/polydev",
+      "description": "Parallel development orchestration with terminal-hosted background tasks and agent investigations",
+      "version": "1.8.1"
+    },
+    {
+      "name": "poly-retrace",
+      "source": "https://github.com/shikihane/poly-retrace",
+      "description": "Claude Code session history search and analysis - search, index, and analyze conversation logs with AI-powered insights",
+      "version": "1.1.0"
+    }
+  ]
+}
