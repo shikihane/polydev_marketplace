@@ -13,21 +13,19 @@ Claude Code plugin marketplace configuration for the polydev ecosystem.
 
 ### 1. Add the marketplace
 
-```bash
-claude plugin marketplace add https://github.com/shikihane/polydev_marketplace
+```
+/plugin marketplace add shikihane/polydev_marketplace
 ```
 
 ### 2. Install plugins
 
-```bash
-# Install both plugins
-claude plugin install polydev@polydev-marketplace
-claude plugin install poly-retrace@polydev-marketplace
+```
+/plugin install polydev@polydev-marketplace
+/plugin install poly-retrace@polydev-marketplace
 ```
 
-Or install a specific plugin:
+### 3. Reload plugins
 
-```bash
-claude plugin install polydev@polydev-marketplace
-claude plugin install poly-retrace@polydev-marketplace
+```
+/reload-plugins
 ```
